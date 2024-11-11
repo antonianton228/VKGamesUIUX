@@ -13,15 +13,15 @@
     document.querySelectorAll('.ui_tab').forEach((tab) => {
       tab.classList.remove('active');
     });
-  
+
     // Добавляем класс 'active' для выбранной вкладки
     document.querySelector(`#games_tab_${tabName}`).classList.add('active');
-  
+
     // Прячем весь контент
     document.querySelectorAll('.tab-content').forEach((content) => {
       content.classList.remove('active');
     });
-  
+
     // Показываем контент для выбранной вкладки
     document.querySelector(`.${tabName}-content`).classList.add('active');
   }
@@ -1865,41 +1865,41 @@ return colorScheme;
 <div id="page_body" class="fl_r" style="width: 911px;">
 
     <div class="WidgetsContainer" style="display: flex; justify-content: flex-start; gap: 10px; padding-right: 20px;">
-    
+
         <!-- Первый виджет -->
         <a class="GamesCatalogFeaturedGamePromoBanner page_block" href="/games_calendar?ref=apps_featured_promo_game_banner"
             style="background-image: url('https://sun1-54.userapi.com/impf/DuMKeoTrjB70dJRnHLSPH7XvchaNlowqVfXQuQ/3gw6lzrAi5Y.jpg?size=911x256&quality=100&sign=f5b0556482a60ffc28b65bb8d9f1c1bc'); background-size: cover; background-position: center; display: block; width: 400px; height: 100px; padding: 10px; box-sizing: border-box;"
             onclick="showWiki({w: 'app8122140', ref: 'apps_featured_promo_game_banner'}, false, event)">
-            
+
             <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: 100%; height: 100%;">
                 <h3 class="GamesCatalogFeaturedGamePromoBanner__title" data-role="game-link" style="font-size: 16px; margin: 0 0 8px; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
                     «Календарь наград»
                 </h3>
-                
+
                 <button class="FlatButton FlatButton--overlay-primary FlatButton--size-l GamesCatalogFeaturedGamePromoBanner__button" type="button" style="align-self: flex-start;">
-                    <span class="FlatButton__in">   
+                    <span class="FlatButton__in">
                         <span class="FlatButton__content">Участвовать</span>
                     </span>
                 </button>
             </div>
         </a>
-        
-        
-        <a class="ProfileWidget page_block" href="/profile.html" 
+
+
+        <a class="ProfileWidget page_block" href="/profile.html"
         style="display: flex; align-items: center; width: 200px; padding: 10px; box-sizing: border-box; text-decoration: none; background-color: #f0f0f0; border-radius: 8px; margin-left: auto; background-color: #ffffff;">
-            
-            
-            <img src="static/images/profile_pic.jpg" alt="Аватар" 
+
+
+            <img src="static/images/profile_pic.jpg" alt="Аватар"
                 style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-            
-            
+
+
             <div style="flex: 1;">
                 <h3 style="margin: 0; font-size: 16px; color: #333;">Mofius</h3>
             </div>
         </a>
-    
+
     </div>
-    
+
 
     <div id="wrap_between"></div>
     <div id="spa_root"></div>
@@ -1917,7 +1917,7 @@ return colorScheme;
                     <div class="wide_column" role="main">
                         <div class="page_wrapper">
                             <div class="GamesCatalogHead page_block" style="display: 911px; background-color: #edeef0;" id="games_catalog_header">
-                                
+
                                 <ul class="page_block_h2 ui_tabs ui_tabs_new ui_tabs_header GamesCatalogNav ui_tabs_container" style="background-color: white; border-radius: 10px;" role="tablist",>
                                     <li role="presentation" class="ui_tab active" style="border-bottom: 0px;">
                                     <a href="/index.html" class="ui_tab_content_new">Мои игры</a>
@@ -1925,7 +1925,7 @@ return colorScheme;
                                     <li role="presentation" class="ui_tab" style="border-bottom: 0px;">
                                     <a href="/index.html" class="ui_tab_content_new">Каталог</a>
                                     </li>
-                                </ul> 
+                                </ul>
                                 <div class="GamesCatalogHeadContent" id="games_catalog_header_content">
                                     <div class="tab-content catalog-content active" style="width: 911px;">
                                         <div style="display: flex; justify-content: left;">
@@ -2029,177 +2029,178 @@ return colorScheme;
                                                     <div style="height: 30px;"></div>
                                                 </div>
                                             </div>
-                                            
+
                                             <div style="width: 601px; margin-left: 10px; ">
                                                 <div style="background-color: white; border-radius: 10px;">
                                                     <div style="height: 3px;"></div>
-                                                    <h2><b>Игры в выбранной категории</b></h2>
+                                                    <h2><b>Игры в жанре развлечения</b></h2>
                                                     <div style="height: 3px;"></div>
 
                                                     <div style="display: flex; justify-content: left;">
                                                         <div style="display: block; margin-left: 22px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game111.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/1.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.5</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">КНБ</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game112.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/2.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: var(--yellow);">★ 3.0</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Sheep Royale 2</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game113.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/3.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.7</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Клоний</p>
                                                             </div>
-                                                        </div>  
+                                                        </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game114.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/4.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: red;">★ 2.2</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">8x8</p>
                                                             </div>
-                                                        </div> 
-                                                        
+                                                        </div>
+
 
                                                     </div>
                                                     <div style="display: flex; justify-content: left; margin-top: 20px;">
                                                         <div style="display: block; margin-left: 22px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game115.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/5.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 5.0</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Крестики-Нолики</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game116.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/6.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.2</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Фильмы по эмодзи</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game117.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/7.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.5</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Слова из слова</p>
                                                             </div>
-                                                        </div>  
+                                                        </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game118.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/8.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: var(--yellow);">★ 3.0</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Капт</p>
                                                             </div>
-                                                        </div> 
-                                                        
+                                                        </div>
+
+
+                                                    </div>
+                                                    <div style="display: flex; justify-content: left;margin-top: 20px;">
+                                                        <div style="display: block; margin-left: 22px;" >
+                                                            <div class="GamesCatalogCard__imageWrap">
+                                                                <a href="/games/game111.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/1.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.5</div>
+                                                                </a>
+                                                                <p style="margin-top: 1px;">КНБ</p>
+                                                            </div>
+                                                        </div>
+                                                        <div style="display: block; margin-left: 10px;">
+                                                            <div class="GamesCatalogCard__imageWrap">
+                                                                <a href="/games/game112.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/2.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: var(--yellow);">★ 3.0</div>
+                                                                </a>
+                                                                <p style="margin-top: 1px;">Sheep Royale 2</p>
+                                                            </div>
+                                                        </div>
+                                                        <div style="display: block; margin-left: 10px;">
+                                                            <div class="GamesCatalogCard__imageWrap">
+                                                                <a href="/games/game113.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/3.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.7</div>
+                                                                </a>
+                                                                <p style="margin-top: 1px;">Клоний</p>
+                                                            </div>
+                                                        </div>
+                                                        <div style="display: block; margin-left: 10px;">
+                                                            <div class="GamesCatalogCard__imageWrap">
+                                                                <a href="/games/game114.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/4.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: red;">★ 2.2</div>
+                                                                </a>
+                                                                <p style="margin-top: 1px;">8x8</p>
+                                                            </div>
+                                                        </div>
+
 
                                                     </div>
                                                     <div style="display: flex; justify-content: left; margin-top: 20px;">
                                                         <div style="display: block; margin-left: 22px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game115.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/5.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 5.0</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Крестики-Нолики</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game116.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/6.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.2</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Фильмы по эмодзи</p>
                                                             </div>
                                                         </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game117.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/7.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: green;">★ 4.5</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Слова из слова</p>
                                                             </div>
-                                                        </div>  
+                                                        </div>
                                                         <div style="display: block; margin-left: 10px;">
                                                             <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
+                                                                <a href="/games/game118.html" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                                <img src="/Ganres/static/images/ganre1games/8.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                                <div class="rating-box", style="background-color: var(--yellow);">★ 3.0</div>
                                                                 </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
+                                                                <p style="margin-top: 1px;">Капт</p>
                                                             </div>
-                                                        </div> 
-                                                        
+                                                        </div>
+
 
                                                     </div>
-                                                    <div style="display: flex; justify-content: left; margin-top: 20px;">
-                                                        <div style="display: block; margin-left: 22px;">
-                                                            <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                                                </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
-                                                            </div>
-                                                        </div>
-                                                        <div style="display: block; margin-left: 10px;">
-                                                            <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                                                </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
-                                                            </div>
-                                                        </div>
-                                                        <div style="display: block; margin-left: 10px;">
-                                                            <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                                                </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
-                                                            </div>
-                                                        </div>  
-                                                        <div style="display: block; margin-left: 10px;">
-                                                            <div class="GamesCatalogCard__imageWrap">
-                                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                                                </a>
-                                                                <p style="margin-top: 1px;">Ёлочка</p>
-                                                            </div>
-                                                        </div> 
-                                                        
 
-                                                    </div>
 
                                                     <div style="height: 40px;"></div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <br>
@@ -2207,7 +2208,7 @@ return colorScheme;
                                         <br>
                                     </div>
                                 </div>
-                         
+
                             </div>
 
                             <div class="new_block">
@@ -2234,16 +2235,16 @@ return colorScheme;
                                             <a href="/profiles/user2_profile.html"><p style="margin-top: 5px;"><b>duke_dalb</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети 10 минут назад</p>
                                         </div>
-                                      
+
                                     </div>
-                                    
+
                                     <div style="display: flex; align-self: right; margin-top: 10px;">
                                         <img src="static/images/Users/profile_pic3.jpg" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-left:20px;">
                                         <div style="margin-left: 5px;">
                                             <a href="/profiles/user3_profile.html"><p style="margin-top: 5px;"><b>Bagdemagus</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети 2 часа назад</p>
                                         </div>
-                                      
+
                                     </div>
 
                                     <div style="display: flex; align-self: right; margin-top: 10px;">
@@ -2252,7 +2253,7 @@ return colorScheme;
                                             <a href="/profiles/user4_profile.html"><p style="margin-top: 5px;"><b>Pcsky</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети вчера</p>
                                         </div>
-                                      
+
                                     </div>
 
 
@@ -2274,20 +2275,20 @@ return colorScheme;
                                         <div class="GamesCatalogFeed__rightPart"><a href="/spinthebottlegame?ref=56" onclick="return Apps.runFromFeed(event);" class="GamesCatalogFeed__appTitle">Целуй и Знакомься</a><div class="GamesCatalogFeed__notificationText">Скорее заберите ежедневный бонус    сердечек!</div><div class="GamesCatalogFeed__notificationTime">четыре часа назад</div><div class="apps_notification_buttons clear_fix">
                                         <a class="FlatButton FlatButton--primary FlatButton--size-m fl_l" draggable="false" href="/spinthebottlegame?ref=56" onclick="return Apps.runFromFeed(event);">
                                         <span class="FlatButton__in">
-                                          
+
                                           <span class="FlatButton__content">Запустить</span>
-                                          
+
                                         </span>
                                       </a><button class="FlatButton FlatButton--secondary FlatButton--size-m fl_l" type="button" onclick="Apps.deleteNotification(event, this, 1003144697, 3144697, '8da417e083d41347a2')">
                                         <span class="FlatButton__in">
-                                          
+
                                           <span class="FlatButton__content">Удалить</span>
-                                          
+
                                         </span>
                                       </button>
                                       </div></div>
                                       </div>
-                                    </div> 
+                                    </div>
                                     <div class="GamesCatalogFeed__rowWrap" id="apps_notification_1003083242" data-id="1003083242" data-read="0">
                                     <div class="GamesCatalogFeed__item _game-params" data-app-id="3083242" data-need-install="0" data-ref="56" data-options="{&quot;nids&quot;:1003083242}" data-from-id="">
                                     <div class="GamesCatalogFeed__leftPart"><a class="GamesCatalogFeed__avatar" href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);" data-title="Клондайк" onmouseover="showTitle(this, null, null, {needRight: 1, appendEl: document.body});">
@@ -2296,15 +2297,15 @@ return colorScheme;
                                     <div class="GamesCatalogFeed__rightPart"><a href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);" class="GamesCatalogFeed__appTitle">Клондайк</a><div class="GamesCatalogFeed__notificationText">Ваши зверята скучают по Вам. Скорее возвращайтесь в игру.</div><div class="GamesCatalogFeed__notificationTime">вчера в 23:08</div><div class="apps_notification_buttons clear_fix">
                                     <a class="FlatButton FlatButton--primary FlatButton--size-m fl_l" draggable="false" href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);">
                                     <span class="FlatButton__in">
-                                        
+
                                         <span class="FlatButton__content">Запустить</span>
-                                        
+
                                     </span>
                                     </a><button class="FlatButton FlatButton--secondary FlatButton--size-m fl_l" type="button" onclick="Apps.deleteNotification(event, this, 1003083242, 3083242, '8da417e083d41347a2')">
                                     <span class="FlatButton__in">
-                                        
+
                                         <span class="FlatButton__content">Удалить</span>
-                                        
+
                                     </span>
                                     </button>
                                     </div></div>
@@ -2324,20 +2325,20 @@ return colorScheme;
                                       </div>
                                       </div>
                                 </div>
-                                
+
 
 
                             </div>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </div>
         </div>
 
         </div>
-        
+
         </div>
 
     </div>

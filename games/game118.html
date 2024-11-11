@@ -13,15 +13,15 @@
     document.querySelectorAll('.ui_tab').forEach((tab) => {
       tab.classList.remove('active');
     });
-  
+
     // Добавляем класс 'active' для выбранной вкладки
     document.querySelector(`#games_tab_${tabName}`).classList.add('active');
-  
+
     // Прячем весь контент
     document.querySelectorAll('.tab-content').forEach((content) => {
       content.classList.remove('active');
     });
-  
+
     // Показываем контент для выбранной вкладки
     document.querySelector(`.${tabName}-content`).classList.add('active');
   }
@@ -1865,41 +1865,41 @@ return colorScheme;
 <div id="page_body" class="fl_r" style="width: 911px;">
 
     <div class="WidgetsContainer" style="display: flex; justify-content: flex-start; gap: 10px; padding-right: 20px;">
-    
+
         <!-- Первый виджет -->
         <a class="GamesCatalogFeaturedGamePromoBanner page_block" href="/games_calendar?ref=apps_featured_promo_game_banner"
             style="background-image: url('https://sun1-54.userapi.com/impf/DuMKeoTrjB70dJRnHLSPH7XvchaNlowqVfXQuQ/3gw6lzrAi5Y.jpg?size=911x256&quality=100&sign=f5b0556482a60ffc28b65bb8d9f1c1bc'); background-size: cover; background-position: center; display: block; width: 400px; height: 100px; padding: 10px; box-sizing: border-box;"
             onclick="showWiki({w: 'app8122140', ref: 'apps_featured_promo_game_banner'}, false, event)">
-            
+
             <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: 100%; height: 100%;">
                 <h3 class="GamesCatalogFeaturedGamePromoBanner__title" data-role="game-link" style="font-size: 16px; margin: 0 0 8px; max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
                     «Календарь наград»
                 </h3>
-                
+
                 <button class="FlatButton FlatButton--overlay-primary FlatButton--size-l GamesCatalogFeaturedGamePromoBanner__button" type="button" style="align-self: flex-start;">
-                    <span class="FlatButton__in">   
+                    <span class="FlatButton__in">
                         <span class="FlatButton__content">Участвовать</span>
                     </span>
                 </button>
             </div>
         </a>
-        
-        
-        <a class="ProfileWidget page_block" href="/profile.html" 
+
+
+        <a class="ProfileWidget page_block" href="/profile.html"
         style="display: flex; align-items: center; width: 200px; padding: 10px; box-sizing: border-box; text-decoration: none; background-color: #f0f0f0; border-radius: 8px; margin-left: auto; background-color: #ffffff;">
-            
-            
-            <img src="static/images/profile_pic.jpg" alt="Аватар" 
+
+
+            <img src="static/images/profile_pic.jpg" alt="Аватар"
                 style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-            
-            
+
+
             <div style="flex: 1;">
                 <h3 style="margin: 0; font-size: 16px; color: #333;">Mofius</h3>
             </div>
         </a>
-    
+
     </div>
-    
+
 
     <div id="wrap_between"></div>
     <div id="spa_root"></div>
@@ -1917,7 +1917,7 @@ return colorScheme;
                     <div class="wide_column" role="main">
                         <div class="page_wrapper">
                             <div class="GamesCatalogHead page_block" style="display: 911px; background-color: #edeef0;" id="games_catalog_header">
-                                
+
                                 <ul class="page_block_h2 ui_tabs ui_tabs_new ui_tabs_header GamesCatalogNav ui_tabs_container" style="background-color: white; border-radius: 10px;" role="tablist",>
                                     <li role="presentation" class="ui_tab active" style="border-bottom: 0px;">
                                     <a href="/index.html" class="ui_tab_content_new">Мои игры</a>
@@ -1925,892 +1925,211 @@ return colorScheme;
                                     <li role="presentation" class="ui_tab" style="border-bottom: 0px;">
                                     <a href="/index.html" class="ui_tab_content_new">Каталог</a>
                                     </li>
-                                </ul> 
+                                </ul>
                                 <div class="GamesCatalogHeadContent" id="games_catalog_header_content">
                                 <div class="tab-content catalog-content active" style="width: 911px;">
-                                    <div style="display: flex; justify-content: right;">
-                                        <div style="width: 50%;">
-                                            <div style="background-color: white; border-radius: 10px; margin-top: -20px;">
-                                                
-                                                <p class="page_block_header_inner _header_inner"><h2><b>Профиль</b></h2></p>
+                                    <div style="display: flex; justify-content: left;margin-top: -10px;">
+                                        <div style=" width: 451px;  display: block;">
+                                            <div style="background-color: white;;border-radius: 10px;">
+                                                <div style="height: 20px;"></div>
                                                 <div style="display: flex; justify-content: left;">
-                                                    <img src="static/images/Users/profile_pic3.jpg" alt="Аватар" 
-                                                    style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-left: 30px;">
-                                                    <div style="margin-left: 20px;">
-                                                        <p style="font-size: 20px; text-align: start;"><b>Bagdemagus</b></p>
-                                                        <p style="margin-top: -20px; text-align: start;">@youra</p>
-                                                        <p style="text-align: start;">Серия 1 дней (рекорд 25 дней)</p>
+                                                    <div style="display: block; margin-left: 20px;">
+                                                        <div class="GamesCatalogCard__imageWrap">
+                                                            <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
+                                                            <img src="/Ganres/static/images/ganre1games/8.jpg" class="GamesCatalogCard__image" data-role="game-link">
+                                                            <div class="rating-box", style="background-color: var(--yellow);">★ 3.0</div>
+                                                            </a>
+                                                        </div>
                                                     </div>
-                                               
+                                                    <div style="display: block;">
+                                                        <h2 style="margin-left: 10px; margin-top: 10px; font-size: 20px; text-align: left;">Капт</h2>
+                                                        <div style="display: flex; justify-content: left;margin-top: -20px;">
+                                                            <div style="margin-left: 10px; display: block;">
+                                                                <p><b>Сейчас онлайн</b></p>
+                                                                <p style="text-align: left; margin-top: -10px;">1113 человек</p>
+                                                            </div>
+                                                            <div style="margin-left: 10px; display: block;">
+                                                                <p><b>Всего игроков</b></p>
+                                                                <p style="text-align: left; margin-top: -10px;">1М человек</p>
+                                                            </div>
+                                                        </div>
+                                                        <button class="game-banner__button" style="height: 35px; width: 200px; margin-left: 10px; background-color: #447bba; border-width: 0px; border-radius: 10px;"><p  class="FlatButton__content" style="margin-top: 1px; margin-left: -2px; font-size: 14px; font-weight: 100;">Играть</p></button>
+                                                    </div>
                                                 </div>
                                                 <br>
                                             </div>
-                                            <div style="background-color: white; border-radius: 10px; margin-top: 10px;">
-                                            <p class="page_block_header_inner _header_inner"><h2><b>Любимые игры</b></h2></p>
-                                            <div style="display: flex; justify-content: left;">
-                                                <div>
-                                                    <a href="/games/game1.html"><img src="static/images/Games/game1.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 20px;"></a>
-                                                    <a href="/games/game1.html"><p style="margin-left: 20px; margin-top: 3px;"><b>Бутылочка</b></p></a>
+
+
+                                            <div style="background-color: white;;border-radius: 10px; margin-top: 10px;">
+                                                <div style="height: 1px;"></div>
+                                                <h2 style="text-align: left;  margin-left: 20px;"><b>Описание:</b></h2>
+
+                                                <p  style="text-align: left; margin-left: 20px; margin-right: 20px;word-wrap: break-word;">МногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобуквМногобукв</p>
+                                                <br>
+                                                <div style="display: flex; justify-content: left;">
+                                                    <div style="width: 15px;"></div>
+                                                    <div style="border: solid white; background-color: #ebf2fa; height: 30px; width: 100px; border-radius: 10px; ">
+                                                        <p style="font-size: 15px; margin-top: 7.5px;">Головоломка</p>
+                                                    </div>
+                                                    <div style="border: solid white; background-color: #ebf2fa; height: 30px; width: 100px; border-radius: 10px; ">
+                                                        <p style="font-size: 15px; margin-top: 7.5px;">Квест</p>
+                                                    </div>
+                                                    <div style="border: solid white; background-color: #ebf2fa; height: 30px; width: 100px; border-radius: 10px; ">
+                                                        <p style="font-size: 15px; margin-top: 7.5px;">Что-то там</p>
+                                                    </div>
+                                                    <div style="width: 50px;"></div>
+                                                    <div style="border: solid white; background-color: #ebf2fa; height: 30px; width: 30px; border-radius: 10px; ">
+                                                        <a style="text-decoration: none;"><p style="font-size: 15px; margin-top: 7.5px; ">+</p></a>
+                                                    </div>
                                                 </div>
-                                                <div>
-                                                    <a href="/games/game4.html"><img src="static/images/Games/game4.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game4.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Куб</b></p></a>
-                                                </div>
-                                                <div>
-                                                    <a href="/games/game8.html"><img src="static/images/Games/game8.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game8.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Косынка</b></p></a>
-                                                </div>
-                                                <div>
-                                                    <a href="/games/game9.html"><img src="static/images/Games/game9.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game9.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Battle Arena</b></p></a>
-                                                </div>
+                                                <br>
+
                                             </div>
+                                            <div style="background-color: white;;border-radius: 10px; margin-top: 10px;">
+                                                <div style="height: 1px;"></div>
+                                                <h2 style="text-align: left;  margin-left: 20px;"><b>Сообщество игры:</b></h2>
+
+                                                <div style="display: flex; justify-content: left;">
+                                                    <img src="static/images/profile_pic.jpg" style="object-fit: cover; width: 75px; height: 75px; border-radius: 100%; margin-left: 30px;">
+                                                    <p style="font-size: large; margin-top: 30px; margin-left: 30px ;">Название сообщества</p>
+                                                </div>
+
+                                                <br>
+
+                                                <br>
+
+                                            </div>
+
+                                        </div>
+                                        <div style="margin-left: 10px; background-color: white; width: 451px; border-radius: 10px;">
+                                            <h2 style="text-align: left; margin-left: 20px;"><b>Достижения для этой игры:</b></h2>
+
                                             <div style="display: flex; justify-content: left;">
-                                                <div>
-                                                    <a href="/games/game12.html"><img src="static/images/Games/game12.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 20px;"></a>
-                                                    <a href="/games/game12.html"><p style="margin-left: 20px; margin-top: 3px;"><b>Empire City</b></p></a>
+                                                <div style="display: block; width: 300px;">
+                                                    <h2 style="text-align: center;">Полученные</h2>
+
+                                                    <div style="background-color: #ebf2fa; border-radius: 10px; margin-left: 20px; margin-right: 20px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color: #ebf2fa; border-radius: 10px; margin-left: 20px; margin-top: 10px; margin-right: 20px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color: #ebf2fa; border-radius: 10px; margin-left: 20px; margin-top: 10px; margin-right: 20px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color: #ebf2fa; border-radius: 10px; margin-left: 20px; margin-top: 10px; margin-right: 20px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
                                                 </div>
-                                                <div>
-                                                    <a href="/games/game3.html"><img src="static/images/Games/game3.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game3.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Рейд Героев</b></p></a>
-                                                </div>
-                                                <div>
-                                                    <a href="/games/game5.html"><img src="static/images/Games/game5.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game5.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Метро 2033</b></p></a>
-                                                </div>
-                                                <div>
-                                                    <a href="/games/game16.html"><img src="static/images/Games/game16.jpg"
-                                                    style="width: 95px; height: 95px; border-radius: 10%; object-fit: cover; margin-left: 10px;"></a>
-                                                    <a href="/games/game16.html"><p style="margin-left: 10px; margin-top: 3px;"><b>Качок</b></p></a>
+                                                <div style="display: block;width: 300px;">
+                                                    <h2 style="text-align: center;">Предстоит получить</h2>
+                                                    <div style="background-color: white; border-radius: 10px; margin-left: 20px; margin-right: 20px; border: solid #ebf2fa; border-width: 2px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color: white; border-radius: 10px; margin-left: 20px; margin-top: 6px; margin-right: 20px;border: solid #ebf2fa; border-width: 2px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color:white; border-radius: 10px; margin-left: 20px; margin-top: 6px; margin-right: 20px;border: solid #ebf2fa; border-width: 2px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+                                                    <div style="background-color: white; border-radius: 10px; margin-left: 20px; margin-top: 6px; margin-right: 20px;border: solid #ebf2fa; border-width: 2px;">
+                                                        <div style="height: 5px;"></div>
+                                                        <div style="display: flex; justify-content: left;">
+                                                            <img style="width: 50px; height: 50px; object-fit: cover;" src="static/images/strategy.png">
+                                                            <p style="margin-top: 17px; text-align: center; ">Достижение 1</p>
+                                                        </div>
+                                                        <div style="height: 5px;"></div>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <br>
+                                            <button class="game-banner__button" style="height: 35px; width: 330px; margin-left: 10px; background-color: #447bba; border-width: 0px; border-radius: 10px;"><p  class="FlatButton__content" style="margin-top: 1px; margin-left: -2px; font-size: 14px; font-weight: 100;">Все достижения</p></button>
+
+                                            <br>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div style="margin-top: 10px;">
+                                        <div style="margin-left: 0px; background-color: white; width: 911px; border-radius: 10px;">
+                                            <div style="height: 1px;"></div>
+                                            <h2 style="text-align: left; margin-left: 20px; font-size: 15px;"><b>Отзывы:</b></h2>
+                                            <div style="height: 1px;"></div>
                                         </div>
 
-                                        </div>
-                                        <div style="width: 50%;margin-left:10px; margin-top: -15px;">
-
-                                            <div style="background-color: white; border-radius: 10px; margin-top: 10px;">
-                                                <p class="page_block_header_inner _header_inner"><h2><b>Достижения</b></h2></p>
-                                                <div class="ProfileAchievementItem ProfileAchievementItem--opened">
-                                                    <span class="ProfileAchievementItem__img" style="background-image: url('https://vk.com/sticker/1-10243-128')" role="img" aria-label="Неспящий в каталоге"></span>
-                                                    <div class="ProfileAchievementItem__row">
-                                                      <div class="ProfileAchievementItem__title">Неспящий в каталоге</div>
-                                                      <div class="ProfileAchievementItem__description">Запускать игры 10 раз за одну неделю</div>
+                                        <div>
+                                            <div style="background-color: white; width: 100%; margin-top: 10px; border-radius: 10px;">
+                                                    <div>
+                                                        <div>
+                                                            <div style="display: flex; justify-content: left;">
+                                                                <img src="static/images/friend1_pic.jpg"
+                                                                style="width: 75px; height: 75px; border-radius: 50%; object-fit: cover; margin-left: 20px; margin-top: 10px;">
+                                                                <a style="margin-top: 15px; margin-left: 20px; ;"><h2 style="font-size: 20px"><b>Pupck_A</b></h2></a>
+                                                            </div>
+                                                            <p style="text-align: start; margin-left: 100px; font-size: 20px;">Крутая игра!</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="ProfileAchievementItem ProfileAchievementItem--opened">
-                                                    <span class="ProfileAchievementItem__img" style="background-image: url('https://vk.com/sticker/1-10237-128')" role="img" aria-label="Младшая лига"></span>
-                                                    <div class="ProfileAchievementItem__row">
-                                                      <div class="ProfileAchievementItem__title">Младшая лига</div>
-                                                      <div class="ProfileAchievementItem__description">Запускать игры 4 дня подряд</div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <div class="ProfileAchievementItem ProfileAchievementItem--opened">
-                                                    <span class="ProfileAchievementItem__img" style="background-image: url('https://vk.com/sticker/1-10239-128')" role="img" aria-label="Жми давай&amp;#33;"></span>
-                                                    <div class="ProfileAchievementItem__row">
-                                                      <div class="ProfileAchievementItem__title">Жми давай!</div>
-                                                      <div class="ProfileAchievementItem__description">Кликать в каталоге по всему, кроме игр</div>
-                                                    </div>
-                                                </div>
-                                                <div class="ProfileAchievementItem ProfileAchievementItem--opened">
-                                                    <span class="ProfileAchievementItem__img" style="background-image: url('https://vk.com/sticker/1-10242-128')" role="img" aria-label="В клане"></span>
-                                                    <div class="ProfileAchievementItem__row">
-                                                      <div class="ProfileAchievementItem__title">В клане</div>
-                                                      <div class="ProfileAchievementItem__description">Подписаться на&nbsp;сообщество игры</div>
-                                                    </div>
-                                                </div>
-                                                <br>
-                                                <a href="/apps?act=achievements&amp;from=profile" onclick="return nav.go(this, event, { noframe: 1 });">
-                                                    <span class="apps_cat_header_link GamesCatalogProfileBlock__showAllButton">Все достижения<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.47 4.22a.75.75 0 0 0 0 1.06L12.19 10l-4.72 4.72a.75.75 0 1 0 1.06 1.06l5.25-5.25a.75.75 0 0 0 0-1.06L8.53 4.22a.75.75 0 0 0-1.06 0z" fill="currentColor"></path></svg></span>
-                                                  </a>
-                                                <br>
-                                                <br> 
-                                                
+                                                    <div style="height: 5px;"></div>
                                             </div>
+                                            <div style="background-color: white; width: 100%; margin-top: 10px; border-radius: 10px;">
+                                                <p class="page_block_header_inner _header_inner"><h2><b>Остаьт свой отзыв</b></h2></p>
+                                                <div style="display: flex; justify-content: left;">
+                                                    <textarea  style="margin-left: 50px; border-radius: 10px; height: 300px; width: 700px; resize:none;" rows=10 ></textarea>
+                                                    <button style="height: 40px; width: 40px; margin-top: 270px; margin-left: 10px; border-radius: 10px; border-color: white; ">➤</button>
+                                                </div>
+                                                <div style="height: 20px;"></div>
+
+                                            </div>
+
+
+
                                         </div>
+
                                     </div>
 
-                                    <div style="background-color: white; width: 100%; margin-top: 10px; border-radius: 10px;">
-                                        <p class="page_block_header_inner _header_inner"><h2><b>Отзывы о пользователе</b></h2></p>
-                                        <div style="display: flex; justify-content: left;">
-                                            <textarea  style="margin-left: 50px; border-radius: 10px; height: 300px; width: 700px; resize:none;" rows=10 ></textarea>
-                                            <button style="height: 40px; width: 40px; margin-top: 270px; margin-left: 10px; border-radius: 10px; border-color: white; ">➤</button>
-                                        </div>
-                                        <div style="height: 20px;"></div>
-              
-                                    </div>
-                                    <div style="background-color: white; width: 100%; margin-top: 10px; border-radius: 10px;">
-                                            <div>
-                                                <div>
-                                                    <div style="display: flex; justify-content: left;">
-                                                        <img src="static/images/Users/user_pic4.jpg" 
-                                                        style="width: 75px; height: 75px; border-radius: 50%; object-fit: cover; margin-left: 20px; margin-top: 10px;">
-                                                        <a style="margin-top: 15px; margin-left: 20px; ;"><h2 style="font-size: 20px"><b>Mof1us</b></h2></a>
-                                                    </div>
-                                                    <p style="text-align: start; margin-left: 75px; font-size: 20px;">Круто играет</p>
-                                                </div>
-                                            </div>
-                                            <div style="height: 5px;"></div>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
 
-                                            
                                     </div>
 
-                                    
-                                
-                                </div>
-                                
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <div class="tab-content apps-content">
-                        
-                        
-                        
-                        
-                        
-                                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                                        <!--startcatalog-->
-                        
-                                        <div class="GamesCatalogHead page_block" id="games_catalog_header">
-                            <h2 class="page_block_h2">
-                            <div class="page_block_header clear_fix" id="games-catalog-bread-crumbs">
-                            <div class="page_block_header_extra_left _header_extra_left"></div>
-                            <div class="page_block_header_extra _header_extra"></div>
-                            <div class="page_block_header_inner _header_inner" data-testid="header"><a class="ui_crumb"  id="games-catalog-bread-back"  href="/apps" onclick="return GamesCatalog.go('catalog');">Игры</a><div class="ui_crumb_sep"></div><div class="ui_crumb"   id="games-catalog-bread-current" ></div></div>
-                            </div>
-                            </h2>
-                            <div class="GamesCatalogHeadContent" id="games_catalog_header_content">
-                            <div class="apps_featured_slider apps_featured_slider--redesign" id="apps_featured_slider">
-                            <div class="apps_featured_prev" id="apps_featured_prev"><div class="apps_featured_slider__icon apps_featured_slider__icon--left"><svg fill="none" height="16" viewBox="0 0 12 16" width="12" xmlns="http://www.w3.org/2000/svg"><path d="m4.77 8 3.37 3.36a.9.9 0 1 1-1.28 1.28l-4-4a.9.9 0 0 1 0-1.28l4-4a.9.9 0 1 1 1.28 1.28z" fill="currentColor"/></svg></div></div>
-                            <div class="apps_featured_next" id="apps_featured_next"><div class="apps_featured_slider__icon apps_featured_slider__icon--right"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" fill="none" viewBox="0 0 12 16"><path fill="currentColor" d="M7.23 8 3.86 4.64a.9.9 0 0 1 1.28-1.28l4 4a.9.9 0 0 1 0 1.28l-4 4a.9.9 0 0 1-1.28-1.28L7.23 8Z"/></svg></div></div>
-                            <div class="apps_featured_thumbs" id="apps_featured_slides">
-                            <a class="apps_featured_thumb apps_featured_thumbs_video " href="/atlatiszuma?mid=501886193&ref=12" hrefparams="ref=12" onclick="return showApp(event, 6994984, 1, '12');" data-video="-28434017_456239030" data-hash="5ecebe9a8741273721">
-                            <div class="apps_featured_thumb__wrap">
-                            <img src="https://sun9-78.userapi.com/c850532/v850532306/1a1a12/pPWFXCeSHlw.jpg" class="apps_featured_thumb_img"/>
-                            <div class="apps_featured_thumb_click_layer"></div>
-                            <span class="apps_featured_thumb_content">
-                            <span class="apps_featured_thumb_gradient"></span>
-                            <span class="apps_featured_thumb_title">Атлантида (зума)</span>
-                            <span class="apps_featured_thumb_descr">Помоги юной волшебнице разгадать тайну затерянного острова&#33;</span>
-                            <span class="apps_featured_thumb_play_btn"><button class="FlatButton FlatButton--overlay-primary FlatButton--size-l" type="button" >
-                            <span class="FlatButton__in">
-                        
-                            <span class="FlatButton__content">Играть</span>
-                        
-                            </span>
-                            </button></span>
-                            </span>
-                            </div>
-                        
-                        
-                            </a><div class="apps_featured_thumb apps_featured_thumb_selected">
-                            <div id="ads_ads_wrap_594694346">
-                            <div class="ads_ad_box ver repeat_ver size_site big_app " id="ads_ad_box_ad_4955e5c62185bfe9">
-                            <div class="ads_ad_box_border repeat_ver big_app"></div>
-                            <div id="left_hidead_4955e5c62185bfe9" class="left_hide_button" onclick="leftAdBlockClose('ad_4955e5c62185bfe9', '/away.php?to=QhscGkF5DVBwbglWXm5UBRBUCkERdAYWQFUxRxxbaVJbIRsIBXt/ZEQMdysTKQlXBTowdFYmZDkxFmMXGikYBXg5NEo5eV8tWW9LRj8ZUSR1AAwwIDcjZmJZFBACJn5IEwhjW3pUakoUekhxQQZdVUQ4DFURFEsSUBANAHIoZwEbEkRME1AjBWEJbFkeGAclKh1bcyYVcSkLbHsNERUIcGldeRASI3lKKSscBBsCMGBABVgRJ09jd0N0eTAwEQ4RGysTSlECTTETF3hLLRd/SXgkHl41L3I6FH9PVBEvTREFO1URB3EMC0oiBkoKOXhcKgAGQx0DaUMBL3c6MQFbWjUyVA4mLltRBjQ1AGkpcjg0a0dRDRAbFk4jN0odKHJ3RnNaWxcQT081IG8NBnIIZhIIeUdDK1dsQVU9N10DawZBPV0CKWQGDjEFdSg3FU80XxRXBEFUR0sWJnhUEhZhHEQjAFAuFHsrMkNLeB0vSDQTakhWCglWdmsGSEQ5dnF0L1MAGmgPN2lHBn8wIkd*BwgvXQEtGxckMzQFd343XDE7awF0GgYDPxMaY2UiPlx1Q1wabCA0CVVqG34nPwRfV34ocTFHE0lkV04bE388AmJHIFIyQgFhXxETcSskL3YTJC8gC2lfDCcyBn98PSkgB2QhNFRHOldxEXJUQUQCCAAtEFYOHhYed1ZHZCcddFFzPFIWNGgIOQsef2hyNkQGbB8-', 'l*KvLSR4MLNSq14lxVGpKZJAWP2bHHtRUnyN4nn*XgpOXjA5X4SIuEUD4*crgMmki3*P80yc7y221qc4y70QLsq9Rk3TEYrkSwik1stKe6jiU6fY*wEVTJLK4CnxWnCO0GcbbJoQJLu1njS7HiRTxOA35BUpI6rriuywosBcVKnUv/8RHDmBbCygHcbanvtEcmrn3j8lO89zxKyRaV27o3pvbFyB6wlEsokfvc2ovS3ODLKD*ttuqKgdOmyjeC45DvmgQt*uxWno0nU4eG43jdI94mFwo156plAZS*8ADNMwMwW6V17g9y8fgKqjw1mnOZcYYJhAtgNmnsQS2p5cK0EMkv7I7BQW2PkBcmZ0KNsQpR1xnfdmC/GZvcDXZbBK*2QbgSN9v9VUsm60k6ZPu20*CFDVF9dXEOB7RzA//KbUPXQ0mcq16MiaRJNdwNpMmF8O22TBGLYEHpvNMng0wf2bExw4C3emHnmwTxDp*ZTm5bVD3FEBdc8i2Y1Es*Zo'); return cancelEvent(event);"></div>
-                            <div class="ads_ad_close_info" id="ads_ad_close_info_ad_4955e5c62185bfe9">
-                            <div class="ads_ad_box_border repeat_ver"></div>
-                            <div class="ads_ad_close_info2">
-                            <div class="ads_ad_close_info3">
-                            <div class="ads_ad_close_info4">
-                                <div class="ads_ad_close_text">Это объявление больше не будет вам показываться.</div>
-                                <div class="ads_ad_close_complain">
-                            <span class="ads_ad_close_complain_info">Если объявление содержит нарушения или ошибку, </span>
-                            <span class="ads_ad_close_complain_link" onclick="reportAd('186506157', 'l*KvLSR4MLNSq14lxVGpKZJAWP2bHHtRUnyN4nn*XgpOXjA5X4SIuEUD4*crgMmki3*P80yc7y221qc4y70QLsq9Rk3TEYrkSwik1stKe6jiU6fY*wEVTJLK4CnxWnCO0GcbbJoQJLu1njS7HiRTxOA35BUpI6rriuywosBcVKnUv/8RHDmBbCygHcbanvtEcmrn3j8lO89zxKyRaV27o3pvbFyB6wlEsokfvc2ovS3ODLKD*ttuqKgdOmyjeC45DvmgQt*uxWno0nU4eG43jdI94mFwo156plAZS*8ADNMwMwW6V17g9y8fgKqjw1mnOZcYYJhAtgNmnsQS2p5cK0EMkv7I7BQW2PkBcmZ0KNsQpR1xnfdmC/GZvcDXZbBK*2QbgSN9v9VUsm60k6ZPu20*CFDVF9dXEOB7RzA//KbUPXQ0mcq16MiaRJNdwNpMmF8O22TBGLYEHpvNMng0wf2bExw4C3emHnmwTxDp*ZTm5bVD3FEBdc8i2Y1Es*Zo');">сообщите нам.</span>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            </div>
-                            <div class="ui_actions_menu_wrap _ui_menu_wrap ads_ad_action_menu_button ui_actions_menu_left" onmouseover="window.uiActionsMenu && uiActionsMenu.show(this, null, {&quot;onToggle&quot;:&quot;!{isShow} &amp;&amp; window.AdsLight &amp;&amp; AdsLight.resetCopyMarkerText()&quot;});" onmouseout="window.uiActionsMenu && uiActionsMenu.hide(this, null, {&quot;onToggle&quot;:&quot;!{isShow} &amp;&amp; window.AdsLight &amp;&amp; AdsLight.resetCopyMarkerText()&quot;});">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" d="M13 6.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm-5 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z"/></svg>
-                            <div class="ui_actions_menu _ui_menu ui_actions_menu--actionSheet ads_ad_ui_actions_menu" ><a class="ui_actions_menu_item" onclick="leftAdBlockClose('ad_4955e5c62185bfe9', '/away.php?to=QhscGkF5DVBwbglWXm5UBRBUCkERdAYWQFUxRxxbaVJbIRsIBXt/ZEQMdysTKQlXBTowdFYmZDkxFmMXGikYBXg5NEo5eV8tWW9LRj8ZUSR1AAwwIDcjZmJZFBACJn5IEwhjW3pUakoUekhxQQZdVUQ4DFURFEsSUBANAHIoZwEbEkRME1AjBWEJbFkeGAclKh1bcyYVcSkLbHsNERUIcGldeRASI3lKKSscBBsCMGBABVgRJ09jd0N0eTAwEQ4RGysTSlECTTETF3hLLRd/SXgkHl41L3I6FH9PVBEvTREFO1URB3EMC0oiBkoKOXhcKgAGQx0DaUMBL3c6MQFbWjUyVA4mLltRBjQ1AGkpcjg0a0dRDRAbFk4jN0odKHJ3RnNaWxcQT081IG8NBnIIZhIIeUdDK1dsQVU9N10DawZBPV0CKWQGDjEFdSg3FU80XxRXBEFUR0sWJnhUEhZhHEQjAFAuFHsrMkNLeB0vSDQTakhWCglWdmsGSEQ5dnF0L1MAGmgPN2lHBn8wIkd*BwgvXQEtGxckMzQFd343XDE7awF0GgYDPxMaY2UiPlx1Q1wabCA0CVVqG34nPwRfV34ocTFHE0lkV04bE388AmJHIFIyQgFhXxETcSskL3YTJC8gC2lfDCcyBn98PSkgB2QhNFRHOldxEXJUQUQCCAAtEFYOHhYed1ZHZCcddFFzPFIWNGgIOQsef2hyNkQGbB8-', 'l*KvLSR4MLNSq14lxVGpKZJAWP2bHHtRUnyN4nn*XgpOXjA5X4SIuEUD4*crgMmki3*P80yc7y221qc4y70QLsq9Rk3TEYrkSwik1stKe6jiU6fY*wEVTJLK4CnxWnCO0GcbbJoQJLu1njS7HiRTxOA35BUpI6rriuywosBcVKnUv/8RHDmBbCygHcbanvtEcmrn3j8lO89zxKyRaV27o3pvbFyB6wlEsokfvc2ovS3ODLKD*ttuqKgdOmyjeC45DvmgQt*uxWno0nU4eG43jdI94mFwo156plAZS*8ADNMwMwW6V17g9y8fgKqjw1mnOZcYYJhAtgNmnsQS2p5cK0EMkv7I7BQW2PkBcmZ0KNsQpR1xnfdmC/GZvcDXZbBK*2QbgSN9v9VUsm60k6ZPu20*CFDVF9dXEOB7RzA//KbUPXQ0mcq16MiaRJNdwNpMmF8O22TBGLYEHpvNMng0wf2bExw4C3emHnmwTxDp*ZTm5bVD3FEBdc8i2Y1Es*Zo'); return cancelEvent(event);" tabindex="0" role="link">Скрыть объявление</a><a class="ui_actions_menu_item" onclick="reportAd('186506157', 'l*KvLSR4MLNSq14lxVGpKZJAWP2bHHtRUnyN4nn*XgpOXjA5X4SIuEUD4*crgMmki3*P80yc7y221qc4y70QLsq9Rk3TEYrkSwik1stKe6jiU6fY*wEVTJLK4CnxWnCO0GcbbJoQJLu1njS7HiRTxOA35BUpI6rriuywosBcVKnUv/8RHDmBbCygHcbanvtEcmrn3j8lO89zxKyRaV27o3pvbFyB6wlEsokfvc2ovS3ODLKD*ttuqKgdOmyjeC45DvmgQt*uxWno0nU4eG43jdI94mFwo156plAZS*8ADNMwMwW6V17g9y8fgKqjw1mnOZcYYJhAtgNmnsQS2p5cK0EMkv7I7BQW2PkBcmZ0KNsQpR1xnfdmC/GZvcDXZbBK*2QbgSN9v9VUsm60k6ZPu20*CFDVF9dXEOB7RzA//KbUPXQ0mcq16MiaRJNdwNpMmF8O22TBGLYEHpvNMng0wf2bExw4C3emHnmwTxDp*ZTm5bVD3FEBdc8i2Y1Es*Zo');" tabindex="0" role="link">Пожаловаться</a><a class="ui_actions_menu_item"target="_blank" data-task-click="AdsLight/advertiser_link_click" data-ad-details-link="" href="https://vk.com/ad_info.php?hash=4af508ca9529e84222&ad_id=186506157&ad_type=ad_office" target="_blank">О рекламодателе</a><a class="ui_actions_menu_item"data-prevent="2" data-task-click="AdsLight/copy_marker_id" data-marker_id="2Vtzqw6z4QZ" tabindex="0" role="link"><span class="ads_ad_action_menu_item_copy">
-                            <span class="ads_ad_action_menu_item_copy__copy">
-                            ERID: 2Vtzqw6z4QZ
-                            </span>
-                            <span class="ads_ad_action_menu_item_copy__copied">
-                            Скопировано
-                            </span>
-                            </span></a></div>
-                            </div>
-                        
-                            <a class="ads_ad_box2 ver repeat_ver size_site big_app" id="ads_ad_box2_ad_4955e5c62185bfe9" target="_blank">
-                            <div class="ads_ad_box3 ver">
-                            <div class="ads_ad_box4 ver">
-                                <div class="ads_ad_box5 ver repeat_ver  big_app">
-                                <div class="ads_ad_box5_spacer ver repeat_ver size_site"></div>
-                                
-                                <div class="ads_ad_box6 ver">
-                                    <div class="ads_ad_photo_box ver big_app">
-                            <img class="ads_ad_photo ver big_app" src="https://sun9-39.userapi.com/impf/lJKEaZ7EhxhyvTroeG0wVj-EpXGcuqr3Ev9SMA/j587Qq-JI_k.jpg?size=560x315&quality=90&sign=816bbf409168ec2e56a501bb7935f861" loading="lazy">
-                        
-                        
-                        
-                            <div class="ads_ad_disclaimers_photo"></div>
-                            <div class="ads_ad_age_restriction  big_app">16+</div>
-                        
-                            <div class="ads_ad_photo_box_borders"></div>
-                            </div>
-                                    <div class="ads_ad_text_box ver repeat_ver size_site  big_app">
-                                    
-                                    
-                                    
-                                    <div class="ads_ad_domain ver big_app" style="display: none;"></div>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    <div class="ads_ad_community_join" style="display: none;"></div>
-                                    
-                                    <div class="ads_ad_disclaimers  big_app" style="display: none;">
-                            <div class="ads_ad_disclaimer ads_ad_disclaimer_specialist ver" style="display: none;"></div>
-                            <div class="ads_ad_disclaimer ads_ad_disclaimer_finance ver" style="display: none;"></div>
-                            </div>
-                                    <div class="ads_ad_disclaimers_bottom"></div>
-                                    
-                                    
-                                    
-                                    <div class="ads_ad_big_app_info_box ver big_app">
-                            <div class="ads_ad_big_app_info_shadow"></div>
-                            <div class="ads_ad_big_app_info_wrap">
-                            <div class="ads_ad_title_box ver repeat_ver big_app">
-                            <div class="ads_ad_title_spacer1 ver repeat_ver big_app">
-                            <div class="ads_ad_title_spacer2 ver repeat_ver big_app"></div>
-                            </div>
-                            <div class="ads_ad_title ver repeat_ver big_app">Зазеркалье</div>
-                            </div>
-                            <div class="ads_ad_description ver big_app">Популярная MMORPG без рекламы</div>
-                            </div>
-                            <div class="ads_ad_play"><button class="FlatButton FlatButton--overlay-primary FlatButton--size-l" type="button" >
-                            <span class="FlatButton__in">
-                        
-                            <span class="FlatButton__content">Играть</span>
-                        
-                            </span>
-                            </button></div>
-                            </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                            </a>
-                        
-                        
-                        
-                        
-                        
-                            <div class="ads_ad_disclaimers_promoted_post"></div>
-                            </div>
-                        
-                            </div>
-                            </div><a class="apps_featured_thumb" href="/igrach_numbers?mid=501886193&ref=12" hrefparams="ref=12" onclick="return showApp(event, 7365806, 1, '12');" >
-                            <div class="apps_featured_thumb__wrap">
-                            <img src="https://sun9-10.userapi.com/impf/ty3ktxDpJS2QXZWw3MTSD6DngOw3AI7Obn2biw/m9fPZiRC6XQ.jpg?size=560x315&quality=90&sign=05e253bd146fadec583db7e84af360ba" class="apps_featured_thumb_img"/>
-                            <div class="apps_featured_thumb_click_layer"></div>
-                            <span class="apps_featured_thumb_content">
-                            <span class="apps_featured_thumb_gradient"></span>
-                            <span class="apps_featured_thumb_title">ДвеТыщиСорокТрис &#128293;</span>
-                            <span class="apps_featured_thumb_descr">Головоломка, от которой невозможно оторваться&#129322;</span>
-                            <span class="apps_featured_thumb_play_btn"><button class="FlatButton FlatButton--overlay-primary FlatButton--size-l" type="button" >
-                            <span class="FlatButton__in">
-                        
-                            <span class="FlatButton__content">Играть</span>
-                        
-                            </span>
-                            </button></span>
-                            </span>
-                            </div>
-                        
-                        
-                            </a><a class="apps_featured_thumb apps_featured_thumbs_video " href="/wormszone?mid=501886193&ref=12" hrefparams="ref=12" onclick="return showApp(event, 6501860, 1, '12');" data-video="-166918487_456239026" data-hash="db997c347ae4c3e962">
-                            <div class="apps_featured_thumb__wrap">
-                            <img src="https://sun9-72.userapi.com/r1oP1vg_9XE_IU5o_oF3MwZaXSIQeTKVl4YAMg/JSIYshghKg0.jpg" class="apps_featured_thumb_img"/>
-                            <div class="apps_featured_thumb_click_layer"></div>
-                            <span class="apps_featured_thumb_content">
-                            <span class="apps_featured_thumb_gradient"></span>
-                            <span class="apps_featured_thumb_title">Червячная зона - Worms Zone</span>
-                            <span class="apps_featured_thumb_descr">Динамичная игра с забавной графикой&#33; Начни растить своего червя прямо сейчас&#33;</span>
-                            <span class="apps_featured_thumb_play_btn"><button class="FlatButton FlatButton--overlay-primary FlatButton--size-l" type="button" >
-                            <span class="FlatButton__in">
-                        
-                            <span class="FlatButton__content">Играть</span>
-                        
-                            </span>
-                            </button></span>
-                            </span>
-                            </div>
-                        
-                        
-                            </a><a class="apps_featured_thumb" href="/ms_espritgames_ru?mid=501886193&ref=12" hrefparams="ref=12" onclick="return showApp(event, 7725072, 1, '12');" >
-                            <div class="apps_featured_thumb__wrap">
-                            <img src="https://sun9-23.userapi.com/impf/9V88RcqrnPosTeZ7pSoYkMHHs9K_iLsUQMsytQ/y8wFZvi8Y4I.jpg?size=560x315&quality=90&sign=6d6e404489a66a2824ee208312100704" class="apps_featured_thumb_img"/>
-                            <div class="apps_featured_thumb_click_layer"></div>
-                            <span class="apps_featured_thumb_content">
-                            <span class="apps_featured_thumb_gradient"></span>
-                            <span class="apps_featured_thumb_title">Книга Героев</span>
-                            <span class="apps_featured_thumb_descr">Сотни мифологических существ, красочные поля битв ждут своего предводителя&#33;</span>
-                            <span class="apps_featured_thumb_play_btn"><button class="FlatButton FlatButton--overlay-primary FlatButton--size-l" type="button" >
-                            <span class="FlatButton__in">
-                        
-                            <span class="FlatButton__content">Играть</span>
-                        
-                            </span>
-                            </button></span>
-                            </span>
-                            </div>
-                        
-                        
-                            </a>
-                            </div>
-                            </div>
-                            </div>
-                        
-                                        
-                                        <!--stop start catalog-->
-                                        <div >
-                                            <div class="game-banner__content" style="border: 2;">
-                                                
-                                                <div class="game-banner__info">
-                                                    <p class="game-banner__title" style="align-self: center;;" data-role="game-link">Поиск по каталогу:</p>
-                                                </div>
-                                                    <input type="text" class="search_field" placeholder="Поиск по играм">
-                                            
-                                                
-                                                <a href="/elka25game?ref=5" class="search_button" data-role="game-link">Искать</a>
-                                            </div>
-                                        </div>
-                                    
-                                        <!--search-->
-                                        <div >
-                                        <div class="game-banner__content" style="border: 2;">
-                                                
-                                            <div class="page_block_header_inner _header_inner" style="margin-left: 35%;" data-testid="header"><h1><b>Рекомендуем поиграть!</b></h2></div>
-                                                <div style="margin-top: 2%; margin-left: auto; width: 100px;"><a>Смотреть все</a></div>
-                                                <div style="margin-top: 2%;"><p> ></p></div>
-                                
-                                            
-                                        </div>
-                                    </div>
-                                        </a>
-                                        </h2>
-                                        <div class="GamesCatalogCardsList _games_list GamesCatalogCardsList--" data-block-id="popular" data-offset="6" id="cards-list-popular">
-                                        <div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_52502367"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="52502367"
-                                        data-ref="5"
-                                        data-need-install="0"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Ёлочка 2025"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                            <div class="GamesCatalogCard__imageWrap">
-                                                <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                                <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                                <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                                </a>
-                                            </div>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/elka25game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Ёлочка 2025
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><div>Любимая игра миллионов&#33; &#127876;&#10052;</div></span>
-                                        </div>
-                                        </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_6923594"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="6923594"
-                                        data-ref="5"
-                                        data-need-install="0"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Монеточка"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                        <a href="/raccoin?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                        <img src="https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=139x139&amp;quality=90&amp;sign=5dc69a4eff9b95a803d1347d81a52e4a" srcset="https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=139x139&amp;quality=90&amp;sign=5dc69a4eff9b95a803d1347d81a52e4a, https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=278x278&amp;quality=90&amp;sign=75465dad6801c7ae87657febdeb813bb 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                        <div class="rating-box", style="background-color: var(--yellow);">★ 3</div>
-                                        
-                                        </a>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/raccoin?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Монеточка
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><div>&#128163;&#128163;&#128163; Атакуй друзей и богатей&#33;</div></span>
-                                        </div>
-                                        </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_51748467"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="51748467"
-                                        data-ref="5"
-                                        data-need-install="0"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Ёлочка 2024: Каппадокия"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                        <a href="/elochka2024?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                        <img src="https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=139x139&amp;quality=90&amp;sign=cf6107d3473079490c914a43e5162ed6" srcset="https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=139x139&amp;quality=90&amp;sign=cf6107d3473079490c914a43e5162ed6, https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=278x278&amp;quality=90&amp;sign=a60979837f5a0fef97f25b4aedc79def 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                        <div class="rating-box", style="background-color: green;">★ 4.5</div>
-                                        
-                                        </a>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/elochka2024?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Ёлочка 2024: Каппадокия
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><div>Осенний сезон уже в игре&#33; &#127809; &#128171;</div></span>
-                                        </div>
-                                        </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_3083242"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="3083242"
-                                        data-ref="5"
-                                        data-need-install="0"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Клондайк"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                        <a href="/klondike_game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                        <img src="https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=139x139&amp;quality=90&amp;sign=a0a9163fc4bb909707a6a954f2db6044" srcset="https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=139x139&amp;quality=90&amp;sign=a0a9163fc4bb909707a6a954f2db6044, https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=278x278&amp;quality=90&amp;sign=91508466ffe8eea90ed6a23a2f5a5158 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                        
-                                        <div class="rating-box", style="background-color: var(--yellow);">★ 2.9</div>
-                                        </a>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/klondike_game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Клондайк
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><a href="/apps?act=genre16" class="GamesCatalogCard__link" data-role="games-genre-link" data-genre-id="16">Экономическая</a></span>
-                                        </div>
-                                        </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_4333086"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="4333086"
-                                        data-ref="5"
-                                        data-need-install="1"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Любовь &amp;#128152;"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                        <a href="/love1v?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                        <img src="https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=139x139&amp;quality=90&amp;sign=106d68f67b65ab5363f5e6f29c8063e9" srcset="https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=139x139&amp;quality=90&amp;sign=106d68f67b65ab5363f5e6f29c8063e9, https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=278x278&amp;quality=90&amp;sign=5f57feecb9d5340e0860e95502772578 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                        <div class="rating-box", style="background-color: green">★ 5.0</div>
-                                        
-                                        </a>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/love1v?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Любовь &#128152;
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><div>&#128293;Общение без границ</div></span>
-                                        </div>
-                                        </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                        id="app_card_3882511"
-                                        data-role="game-link"
-                                        data-in-layer="0"
-                                        data-app-id="3882511"
-                                        data-ref="5"
-                                        data-need-install="0"
-                                        data-genre-id="0"
-                                        data-collection-id="0"
-                                        data-hash=""
-                                        data-tooltip-type="0"
-                                        data-title="Сокровища Пиратов"
-                                        data-ref-section-type=""
-                                        >
-                                        <div class="GamesCatalogCard__imageWrap">
-                                        <a href="/playpirates?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                        <img src="https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=139x139&amp;quality=90&amp;sign=f174613e81e179298d105a3f13e9544c" srcset="https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=139x139&amp;quality=90&amp;sign=f174613e81e179298d105a3f13e9544c, https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=278x278&amp;quality=90&amp;sign=11fca6abc43a77df83ac0b30943c7a3f 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                        <div class="rating-box", style="background-color: red">★ 1.3</div>
-                                        
-                                        </a>
-                                        
-                                        </div>
-                                        <div class="GamesCatalogCard__info">
-                                        <a href="/playpirates?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                        Сокровища Пиратов
-                                        </a>
-                                        
-                                        <span class="GamesCatalogCard__subtext"><div>&#128081;Начни свои поиски сокровищ&#33;&#128142;</div></span>
-                                        </div>
-                                        </div>
-                                        </div>
-                                <!--for you-->        
-                                <div >
-                                    <div class="game-banner__content" style="border: 2;">
-                                            
-                                        <div class="page_block_header_inner _header_inner" style="margin-left: 35%;" data-testid="header"><h1><b>Популярные игры сейчас</b></h2></div>
-                                            <div style="margin-top: 2%; margin-left: auto; width: 100px;"><a>Смотреть все</a></div>
-                                            <div style="margin-top: 2%;"><p> ></p></div>
-                        
-                                        
-                                    </div>
-                                </div>
-                                    </a>
-                                    </h2>
-                                    <div class="GamesCatalogCardsList _games_list GamesCatalogCardsList--" data-block-id="popular" data-offset="6" id="cards-list-popular">
-                                    <div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_52502367"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="52502367"
-                                    data-ref="5"
-                                    data-need-install="0"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Ёлочка 2025"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                        <div class="GamesCatalogCard__imageWrap">
-                                            <a href="/elka25game?ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                            <img src="https://sun1-16.userapi.com/impf/SsOcDne2RNPYwOJvsb0j97fFKA6rqBE0KX1MDg/bazHj10zMkg.jpg?size=139x139&amp;quality=90&amp;sign=d875047ebbb4d97f0f4854d5b8e270bb" class="GamesCatalogCard__image" data-role="game-link">
-                                            <div class="rating-box", style="background-color: red;">★ 1.5</div>
-                                            </a>
-                                        </div>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/elka25game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Ёлочка 2025
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><div>Любимая игра миллионов&#33; &#127876;&#10052;</div></span>
-                                    </div>
-                                    </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_6923594"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="6923594"
-                                    data-ref="5"
-                                    data-need-install="0"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Монеточка"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                    <a href="/raccoin?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                    <img src="https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=139x139&amp;quality=90&amp;sign=5dc69a4eff9b95a803d1347d81a52e4a" srcset="https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=139x139&amp;quality=90&amp;sign=5dc69a4eff9b95a803d1347d81a52e4a, https://sun1-22.userapi.com/impf/CZQ6ozMA9GNC3uD6g0EwCacrsfjLFI6oabulAg/xKOxsRga6Gc.jpg?size=278x278&amp;quality=90&amp;sign=75465dad6801c7ae87657febdeb813bb 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                    <div class="rating-box", style="background-color: var(--yellow);">★ 3</div>
-                                    
-                                    </a>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/raccoin?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Монеточка
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><div>&#128163;&#128163;&#128163; Атакуй друзей и богатей&#33;</div></span>
-                                    </div>
-                                    </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_51748467"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="51748467"
-                                    data-ref="5"
-                                    data-need-install="0"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Ёлочка 2024: Каппадокия"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                    <a href="/elochka2024?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                    <img src="https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=139x139&amp;quality=90&amp;sign=cf6107d3473079490c914a43e5162ed6" srcset="https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=139x139&amp;quality=90&amp;sign=cf6107d3473079490c914a43e5162ed6, https://sun1-17.userapi.com/impf/ZEFG9qqp7sGprKERgZOAnhPC-SuC7NSr7Oo_WQ/rKM9d-oAe18.jpg?size=278x278&amp;quality=90&amp;sign=a60979837f5a0fef97f25b4aedc79def 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                    <div class="rating-box", style="background-color: green;">★ 4.5</div>
-                                    
-                                    </a>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/elochka2024?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Ёлочка 2024: Каппадокия
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><div>Осенний сезон уже в игре&#33; &#127809; &#128171;</div></span>
-                                    </div>
-                                    </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_3083242"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="3083242"
-                                    data-ref="5"
-                                    data-need-install="0"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Клондайк"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                    <a href="/klondike_game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                    <img src="https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=139x139&amp;quality=90&amp;sign=a0a9163fc4bb909707a6a954f2db6044" srcset="https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=139x139&amp;quality=90&amp;sign=a0a9163fc4bb909707a6a954f2db6044, https://sun1-86.userapi.com/impf/yDu9MTC-cb2zxvIzGm_zhEqmgVBDeZvIssJtkA/OMAOYXPY4fc.jpg?size=278x278&amp;quality=90&amp;sign=91508466ffe8eea90ed6a23a2f5a5158 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                    
-                                    <div class="rating-box", style="background-color: var(--yellow);">★ 2.9</div>
-                                    </a>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/klondike_game?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Клондайк
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><a href="/apps?act=genre16" class="GamesCatalogCard__link" data-role="games-genre-link" data-genre-id="16">Экономическая</a></span>
-                                    </div>
-                                    </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_4333086"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="4333086"
-                                    data-ref="5"
-                                    data-need-install="1"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Любовь &amp;#128152;"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                    <a href="/love1v?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                    <img src="https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=139x139&amp;quality=90&amp;sign=106d68f67b65ab5363f5e6f29c8063e9" srcset="https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=139x139&amp;quality=90&amp;sign=106d68f67b65ab5363f5e6f29c8063e9, https://sun1-28.userapi.com/impf/CQkuucKzfRg5uozrIu9wCttdm3fqnLkCfdpQWQ/qDDJSRlHR1Q.jpg?size=278x278&amp;quality=90&amp;sign=5f57feecb9d5340e0860e95502772578 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                    <div class="rating-box", style="background-color: green">★ 5.0</div>
-                                    
-                                    </a>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/love1v?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Любовь &#128152;
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><div>&#128293;Общение без границ</div></span>
-                                    </div>
-                                    </div><div class="GamesCatalogCard GamesCatalogCard-- GamesCatalogCard--withSubtext _game"
-                                    id="app_card_3882511"
-                                    data-role="game-link"
-                                    data-in-layer="0"
-                                    data-app-id="3882511"
-                                    data-ref="5"
-                                    data-need-install="0"
-                                    data-genre-id="0"
-                                    data-collection-id="0"
-                                    data-hash=""
-                                    data-tooltip-type="0"
-                                    data-title="Сокровища Пиратов"
-                                    data-ref-section-type=""
-                                    >
-                                    <div class="GamesCatalogCard__imageWrap">
-                                    <a href="/playpirates?ref=5" hrefparams="ref=5" class="GamesCatalogCard__imageLink" data-role="game-link">
-                                    <img src="https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=139x139&amp;quality=90&amp;sign=f174613e81e179298d105a3f13e9544c" srcset="https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=139x139&amp;quality=90&amp;sign=f174613e81e179298d105a3f13e9544c, https://sun1-98.userapi.com/impf/0QA69NjhJOr5khQ8_OIWTXdna7abfS6EBG5NVg/_47amquMQQk.jpg?size=278x278&amp;quality=90&amp;sign=11fca6abc43a77df83ac0b30943c7a3f 2x" class="GamesCatalogCard__image" data-role="game-link">
-                                    <div class="rating-box", style="background-color: red">★ 1.3</div>
-                                    
-                                    </a>
-                                    
-                                    </div>
-                                    <div class="GamesCatalogCard__info">
-                                    <a href="/playpirates?ref=5" hrefparams="ref=5" class="GamesCatalogCard__appLink" data-role="game-link">
-                                    Сокровища Пиратов
-                                    </a>
-                                    
-                                    <span class="GamesCatalogCard__subtext"><div>&#128081;Начни свои поиски сокровищ&#33;&#128142;</div></span>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <!--popular-->
-                        
-                                            
-                        
-                        
-                                    <div >
-                                        <div class="game-banner__content" style="border: 2;">
-                                                
-                                            <div class="page_block_header_inner _header_inner" style="margin-left: 45%;" data-testid="header"><h1><b>Жанры</b></h2></div>
-                        
-                                
-                                            
-                                        </div>
-                                    </div>
-                        
-                                    
-                        
-                        
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Квесты</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Стратегии</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Стратегии</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Стратегии</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Стратегии</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="ganre-banner__content">
-                                            <a href="/elka25game?ref=5" class="game-banner__link" data-role="game-link">
-                                                <img src="static/images/strategy.png"  class="GamesCatalogCard__image" data-role="game-link">
-                                            </a>
-                                            <div class="game-banner__info">
-                                                <a href="/elka25game?ref=5" class="game-banner__title" style="margin-left: 200px; text-align: center;" data-role="game-link">Стратегии</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                        
-                        
-                        
-                        
-                                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br> 
-                        
-                        
-                        
-                                    </div>
-                                    
-                                </div>
                             </div>
 
                             <div class="new_block">
@@ -2837,16 +2156,16 @@ return colorScheme;
                                             <a href="/profiles/user2_profile.html"><p style="margin-top: 5px;"><b>duke_dalb</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети 10 минут назад</p>
                                         </div>
-                                      
+
                                     </div>
-                                    
+
                                     <div style="display: flex; align-self: right; margin-top: 10px;">
                                         <img src="static/images/Users/profile_pic3.jpg" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-left:20px;">
                                         <div style="margin-left: 5px;">
                                             <a href="/profiles/user3_profile.html"><p style="margin-top: 5px;"><b>Bagdemagus</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети 2 часа назад</p>
                                         </div>
-                                      
+
                                     </div>
 
                                     <div style="display: flex; align-self: right; margin-top: 10px;">
@@ -2855,7 +2174,7 @@ return colorScheme;
                                             <a href="/profiles/user4_profile.html"><p style="margin-top: 5px;"><b>Pcsky</b></p></a>
                                             <p style="margin-top: -5px; color: gray;">Был в сети вчера</p>
                                         </div>
-                                      
+
                                     </div>
 
 
@@ -2877,20 +2196,20 @@ return colorScheme;
                                         <div class="GamesCatalogFeed__rightPart"><a href="/spinthebottlegame?ref=56" onclick="return Apps.runFromFeed(event);" class="GamesCatalogFeed__appTitle">Целуй и Знакомься</a><div class="GamesCatalogFeed__notificationText">Скорее заберите ежедневный бонус    сердечек!</div><div class="GamesCatalogFeed__notificationTime">четыре часа назад</div><div class="apps_notification_buttons clear_fix">
                                         <a class="FlatButton FlatButton--primary FlatButton--size-m fl_l" draggable="false" href="/spinthebottlegame?ref=56" onclick="return Apps.runFromFeed(event);">
                                         <span class="FlatButton__in">
-                                          
+
                                           <span class="FlatButton__content">Запустить</span>
-                                          
+
                                         </span>
                                       </a><button class="FlatButton FlatButton--secondary FlatButton--size-m fl_l" type="button" onclick="Apps.deleteNotification(event, this, 1003144697, 3144697, '8da417e083d41347a2')">
                                         <span class="FlatButton__in">
-                                          
+
                                           <span class="FlatButton__content">Удалить</span>
-                                          
+
                                         </span>
                                       </button>
                                       </div></div>
                                       </div>
-                                    </div> 
+                                    </div>
                                     <div class="GamesCatalogFeed__rowWrap" id="apps_notification_1003083242" data-id="1003083242" data-read="0">
                                     <div class="GamesCatalogFeed__item _game-params" data-app-id="3083242" data-need-install="0" data-ref="56" data-options="{&quot;nids&quot;:1003083242}" data-from-id="">
                                     <div class="GamesCatalogFeed__leftPart"><a class="GamesCatalogFeed__avatar" href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);" data-title="Клондайк" onmouseover="showTitle(this, null, null, {needRight: 1, appendEl: document.body});">
@@ -2899,15 +2218,15 @@ return colorScheme;
                                     <div class="GamesCatalogFeed__rightPart"><a href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);" class="GamesCatalogFeed__appTitle">Клондайк</a><div class="GamesCatalogFeed__notificationText">Ваши зверята скучают по Вам. Скорее возвращайтесь в игру.</div><div class="GamesCatalogFeed__notificationTime">вчера в 23:08</div><div class="apps_notification_buttons clear_fix">
                                     <a class="FlatButton FlatButton--primary FlatButton--size-m fl_l" draggable="false" href="/klondike_game?ref=56" onclick="return Apps.runFromFeed(event);">
                                     <span class="FlatButton__in">
-                                        
+
                                         <span class="FlatButton__content">Запустить</span>
-                                        
+
                                     </span>
                                     </a><button class="FlatButton FlatButton--secondary FlatButton--size-m fl_l" type="button" onclick="Apps.deleteNotification(event, this, 1003083242, 3083242, '8da417e083d41347a2')">
                                     <span class="FlatButton__in">
-                                        
+
                                         <span class="FlatButton__content">Удалить</span>
-                                        
+
                                     </span>
                                     </button>
                                     </div></div>
@@ -2927,20 +2246,20 @@ return colorScheme;
                                       </div>
                                       </div>
                                 </div>
-                                
+
 
 
                             </div>
                         </div>
 
-                        
+
                     </div>
                 </div>
             </div>
         </div>
 
         </div>
-        
+
         </div>
 
     </div>
